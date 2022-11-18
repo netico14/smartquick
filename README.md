@@ -1,4 +1,20 @@
 # Getting Started with Create React App
+Autenticación de usuarios, hay dos perfiles, administrador y coordinador
+
+const usuarios = [
+  {
+    user: 'neto',
+    name: 'Ernesto Beltrán',
+    pass: '123',
+    type: 'Administrador'
+  },
+  {
+    user: 'juan',
+    name: 'Juan Beltrán',
+    pass: '123',
+    type: 'Coordinador'
+  }
+]
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
